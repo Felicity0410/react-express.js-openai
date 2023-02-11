@@ -1,0 +1,33 @@
+.App {
+  margin: 3rem auto;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App form {
+  display: flex;
+  flex-direction: column;
+}
+
+.App form textarea{
+  min-width: 400px;
+  min-height: 200px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.App form button {
+  width: fit-content;
+  margin: auto;
+}
+
+.App .response-area {
+  min-width: 400px;
+  min-height: 100px;
+  margin: 20px auto;
+  border: 1px solid #333;
+  padding: 10px;
+}
